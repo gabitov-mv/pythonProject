@@ -195,7 +195,7 @@ class Ui_MainWindow(object):
         self.gridLayout_3.addWidget(self.label_2, 2, 0, 1, 1)
         self.gridLayout_3.addWidget(self.label_3, 1, 0, 1, 1)
         self.label_4.setGeometry(QtCore.QRect(10, 10, 431, 21))
-        self.label_5.setGeometry(QtCore.QRect(10, 149, 310, 21))
+        self.label_5.setGeometry(QtCore.QRect(10, 149, 380, 21))
         self.gridLayout_4.addWidget(self.label_6, 1, 0, 1, 1)
         self.gridLayout_4.addWidget(self.label_7, 2, 0, 1, 1)
         self.gridLayout_4.addWidget(self.label_8, 3, 0, 1, 1)
@@ -242,7 +242,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Кликер"))
-        self.label.setText(_translate("MainWindow", "Активировать"))
+        self.label.setText(_translate("MainWindow", "Выбрать"))
         self.label_2.setText(_translate("MainWindow", "Тайминг в мс"))
         self.label_3.setText(_translate("MainWindow", "Клавиша"))
         self.label_4.setText(_translate("MainWindow", "Групповая активация нескольких клавиш после нажатия"))
